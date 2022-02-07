@@ -1,0 +1,19 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /**para ocupar a tela toda centralizando os elementos*/
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 0;
+    cursor: pointer;
+}
+.formulario > div {
+    display: flex;
+}
